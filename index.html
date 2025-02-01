@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A dynamic and visually appealing profile card.">
+  <meta name="keywords" content="Profile card, Dynamic UI, Responsive design">
+  <meta name="author" content="David">
+  <meta property="og:title" content="Dynamic Profile Card">
+  <meta property="og:description" content="A profile card with dynamic and responsive elements.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/profile-card">
+  <meta property="og:image" content="https://yourwebsite.com/profile-card-thumbnail.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dynamic Profile Card">
+  <meta name="twitter:description" content="A profile card with dynamic and responsive elements.">
+  <meta name="twitter:image" content="https://yourwebsite.com/profile-card-thumbnail.png">
+  <title>Dynamic Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="profile-card">
+    <img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+    <h1 class="full-name" data-testid="fullName">David Uwagbale</h1>
+    <p class="job-title" data-testid="jobTitle">Fullstack Developer</p>
+    <p class="short-bio" data-testid="shortBio">
+      Passionate developer with expertise in web technologies, creating seamless user experiences.
+    </p>
+    <p class="current-location" data-testid="currentLocation">Lagos, Nigeria</p>
+    <p class="email-address" data-testid="emailAddress"> duwagbale07@gmail.com </p>
+    <div class="social-links" data-testid="socialLinks">
+      <a href="https://github.com/DavidTimi1" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/daviduwagbale" target="_blank">LinkedIn</a>
+    </div>
+    <p class="current-time" data-testid="currentTimeUTC"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

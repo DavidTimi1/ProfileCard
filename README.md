@@ -1,4 +1,5 @@
-# Profile Card (HNG Stage 0)
+# Dynamic Profile Card
+Dynamic Profile Business Card
 
 ## Description
 This project is a dynamic and visually appealing profile card built with HTML, CSS, and JavaScript. It includes essential user information, updates the current UTC time dynamically, and adheres to SEO best practices.
@@ -25,3 +26,4 @@ This project is a dynamic and visually appealing profile card built with HTML, C
 
 ## License
 This project is open source and available under the MIT License.
+

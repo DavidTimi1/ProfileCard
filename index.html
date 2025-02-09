@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My profile card with dynamic and responsive elements.">
+  <meta name="keywords" content="David Uwagbale, Timidev, Devid, Profile card, Dynamic UI, Responsive design">
+  <meta name="author" content="David">
+  <meta name="theme-color" content="#f4f4f4">
+
+  <meta property="og:title" content="Dynamic Profile Card">
+  <meta property="og:description" content="My profile card with dynamic and responsive elements.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/ProfileCard/thumbnail.png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@DavidTimi_1">
+  <meta name="twitter:creator" content="@DavidTimi_1">
+  <meta name="twitter:title" content="Dynamic Profile Card">
+  <meta name="twitter:description" content="My profile card with dynamic and responsive elements.">
+  <meta name="twitter:image" content="/ProfileCard/thumbnail.png">
+  
+  <link rel="preload" href="profile.jpg" as="image">
+  <link rel="prefetch" href="https://kit.fontawesome.com/9564db1e37.js" as="script">
+  <link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" as="stylesheet">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <script src="https://kit.fontawesome.com/9564db1e37.js" crossorigin="anonymous"></script>
+
+  <title>Dynamic Profile Card</title>
+  <script type="module" crossorigin src="/ProfileCard/assets/index-CCVx5NrM.js"></script>
+  <link rel="stylesheet" crossorigin href="/ProfileCard/assets/index-6DBqPe4G.css">
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-background">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+    </div>
+
+    <div class="profile-content">
+      
+      <div>
+        <h1 class="full-name" data-testid="fullName">David Uwagbale</h1>
+        <p class="job-title" data-testid="jobTitle">Fullstack Developer</p>
+      </div>
+        <p class="short-bio" data-testid="shortBio">
+          Experienced developer with expertise in web technologies, creating seamless user experiences.
+        </p>
+        <div class="details">
+          <small class="current-location">
+            <i class="fa-solid fa-location"><span class="sr-only"> Location </span></i>
+            <span data-testid="currentLocation">
+              Lagos, Nigeria 
+            </span>
+          </small>
+          <small class="email-address">
+            <i class="fa-solid fa-envelope"><span class="sr-only"> Email </span></i>
+            <span data-testid="emailAddress">
+              duwagbale07@gmail.com 
+            </span>
+          </small>
+        </div>
+        <div class="social-links" data-testid="socialLinks">
+          <a href="https://github.com/DavidTimi1" target="_blank">
+            <i class="fa-brands fa-github">
+              <span class="sr-only">GitHub</span>
+            </i>
+          </a>
+          <a href="https://linkedin.com/in/daviduwagbale" target="_blank">
+            <i class="fa-brands fa-linkedin">
+              <span class="sr-only">LinkedIn</span>
+            </i>
+          </a>
+          <a href="https://x.com/DavidTimi_1" target="_blank">
+            <i class="fa-brands fa-x-twitter">
+              <span class="sr-only">X (formerly Twitter)</span>
+            </i>
+          </a>
+        </div>
+        <p class="current-time">
+          Last reloaded: <span data-testid="currentTimeUTC"></span>
+        </p>
+
+    </div>
+  </div>
+
+</body>
+</html>
